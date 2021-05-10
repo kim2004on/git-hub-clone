@@ -1,0 +1,66 @@
+/* component */
+@import "component/header.css";
+@import "component/visual.css";
+@import "component/feature.css";
+@import "component/whereis.css";
+@import "component/pricing.css";
+@import "component/footer.css";
+
+/* recycle */
+@import "recycle/btn.css";
+@import "recycle/input.css";
+
+
+/* COMMON */
+.body__container{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*  FLOAT clearfix */
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.float--left{
+    float: left;
+}
+.float--right{
+    float: right;
+}
+
+/* SUMMARY */
+
+
+.summary__title{
+    font-size: 38PX;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+.summary__description{
+    font-size: 26px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.5;
+}
+
+/* SECTION & CONTAINER */
+.section{
+    position: relative;
+}
+
+.section .container{
+    max-width: 980px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
